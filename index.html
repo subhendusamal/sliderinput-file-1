@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="center">
+        <h2>Price Slider</h2>
+        <div class="slider-container">
+            <!-- Price Bubble at Start -->
+            <div class="show-value" id="priceBubble" style="left: 0%;">
+                <span id="current-value">0</span>
+            </div>
+            
+            <input type="range" id="mySlider" min="0" max="50000" value="0" step="25000" disabled>
+    
+            <div class="range-labels">
+                <button class="range-btn" data-value="0">Min Price</button>
+                <button class="range-btn" data-value="25000">Middle Price</button>
+                <button class="range-btn" data-value="50000">Max Price</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+   <script src="app.js"></script> 
+</body>
+</html>
